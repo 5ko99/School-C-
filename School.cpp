@@ -18,6 +18,7 @@ struct Otsystviq{
 
 int main()
 {
+
     int n;
     cout<<"n=";
     cin>>n;
