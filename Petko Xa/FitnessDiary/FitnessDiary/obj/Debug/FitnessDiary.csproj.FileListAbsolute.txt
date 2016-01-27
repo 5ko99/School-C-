@@ -1,0 +1,16 @@
+D:\10a klas\Petko Xa\FitnessDiary\FitnessDiary\bin\Debug\FitnessDiary.exe.config
+D:\10a klas\Petko Xa\FitnessDiary\FitnessDiary\bin\Debug\FitnessDiary.exe
+D:\10a klas\Petko Xa\FitnessDiary\FitnessDiary\bin\Debug\FitnessDiary.pdb
+D:\10a klas\Petko Xa\FitnessDiary\FitnessDiary\bin\Debug\mscorlib.dll
+D:\10a klas\Petko Xa\FitnessDiary\FitnessDiary\bin\Debug\normidna.nlp
+D:\10a klas\Petko Xa\FitnessDiary\FitnessDiary\bin\Debug\normnfc.nlp
+D:\10a klas\Petko Xa\FitnessDiary\FitnessDiary\bin\Debug\normnfd.nlp
+D:\10a klas\Petko Xa\FitnessDiary\FitnessDiary\bin\Debug\normnfkc.nlp
+D:\10a klas\Petko Xa\FitnessDiary\FitnessDiary\bin\Debug\normnfkd.nlp
+D:\10a klas\Petko Xa\FitnessDiary\FitnessDiary\obj\Debug\FitnessDiary.csprojResolveAssemblyReference.cache
+D:\10a klas\Petko Xa\FitnessDiary\FitnessDiary\obj\Debug\FitnessDiary.frmMain.resources
+D:\10a klas\Petko Xa\FitnessDiary\FitnessDiary\obj\Debug\FitnessDiary.frmAddActivity.resources
+D:\10a klas\Petko Xa\FitnessDiary\FitnessDiary\obj\Debug\FitnessDiary.Properties.Resources.resources
+D:\10a klas\Petko Xa\FitnessDiary\FitnessDiary\obj\Debug\FitnessDiary.csproj.GenerateResource.Cache
+D:\10a klas\Petko Xa\FitnessDiary\FitnessDiary\obj\Debug\FitnessDiary.exe
+D:\10a klas\Petko Xa\FitnessDiary\FitnessDiary\obj\Debug\FitnessDiary.pdb

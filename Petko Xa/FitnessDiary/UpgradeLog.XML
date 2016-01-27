@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="FitnessDiary">
+</Property><Property Name="Solution File" Value="D:\10a klas\Petko Xa\FitnessDiary\FitnessDiary.sln">
+</Property><Property Name="Date" Value="06 октомври 2015 г.">
+</Property><Property Name="Time" Value="15:18 ч.">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="FitnessDiary.sln" Description="File successfully backed up as D:\10a klas\Petko Xa\FitnessDiary\Backup\FitnessDiary.sln">
+</Event><Event ErrorLevel="0" Project="FitnessDiary" Source="FitnessDiary\FitnessDiary.csproj" Description="Project file successfully backed up as D:\10a klas\Petko Xa\FitnessDiary\Backup\FitnessDiary\FitnessDiary.csproj">
+</Event><Event ErrorLevel="0" Project="FitnessDiary" Source="FitnessDiary\GlobalVariableClass.cs" Description="File successfully backed up as D:\10a klas\Petko Xa\FitnessDiary\Backup\FitnessDiary\GlobalVariableClass.cs">
+</Event><Event ErrorLevel="0" Project="FitnessDiary" Source="FitnessDiary\Form1.cs" Description="File successfully backed up as D:\10a klas\Petko Xa\FitnessDiary\Backup\FitnessDiary\Form1.cs">
+</Event><Event ErrorLevel="0" Project="FitnessDiary" Source="FitnessDiary\Form1.Designer.cs" Description="File successfully backed up as D:\10a klas\Petko Xa\FitnessDiary\Backup\FitnessDiary\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FitnessDiary" Source="FitnessDiary\frmAddActivity.cs" Description="File successfully backed up as D:\10a klas\Petko Xa\FitnessDiary\Backup\FitnessDiary\frmAddActivity.cs">
+</Event><Event ErrorLevel="0" Project="FitnessDiary" Source="FitnessDiary\frmAddActivity.Designer.cs" Description="File successfully backed up as D:\10a klas\Petko Xa\FitnessDiary\Backup\FitnessDiary\frmAddActivity.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FitnessDiary" Source="FitnessDiary\Program.cs" Description="File successfully backed up as D:\10a klas\Petko Xa\FitnessDiary\Backup\FitnessDiary\Program.cs">
+</Event><Event ErrorLevel="0" Project="FitnessDiary" Source="FitnessDiary\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\10a klas\Petko Xa\FitnessDiary\Backup\FitnessDiary\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="FitnessDiary" Source="FitnessDiary\Properties\Resources.Designer.cs" Description="File successfully backed up as D:\10a klas\Petko Xa\FitnessDiary\Backup\FitnessDiary\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FitnessDiary" Source="FitnessDiary\Properties\Settings.Designer.cs" Description="File successfully backed up as D:\10a klas\Petko Xa\FitnessDiary\Backup\FitnessDiary\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FitnessDiary" Source="FitnessDiary\Properties\Settings.settings" Description="File successfully backed up as D:\10a klas\Petko Xa\FitnessDiary\Backup\FitnessDiary\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="FitnessDiary" Source="FitnessDiary\App.config" Description="File successfully backed up as D:\10a klas\Petko Xa\FitnessDiary\Backup\FitnessDiary\App.config">
+</Event><Event ErrorLevel="0" Project="FitnessDiary" Source="FitnessDiary\Form1.resx" Description="File successfully backed up as D:\10a klas\Petko Xa\FitnessDiary\Backup\FitnessDiary\Form1.resx">
+</Event><Event ErrorLevel="0" Project="FitnessDiary" Source="FitnessDiary\frmAddActivity.resx" Description="File successfully backed up as D:\10a klas\Petko Xa\FitnessDiary\Backup\FitnessDiary\frmAddActivity.resx">
+</Event><Event ErrorLevel="0" Project="FitnessDiary" Source="FitnessDiary\Properties\Resources.resx" Description="File successfully backed up as D:\10a klas\Petko Xa\FitnessDiary\Backup\FitnessDiary\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="FitnessDiary" Source="FitnessDiary\FitnessDiary.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="FitnessDiary" Source="FitnessDiary\FitnessDiary.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="FitnessDiary.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="FitnessDiary.sln" Description="Converted">
+</Event></UpgradeLog>

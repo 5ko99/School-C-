@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RandomPasswordGenerator">
+</Property><Property Name="Solution File" Value="D:\10a klas\Petko Xa\JustForFun\RandomPasswordGenerator\RandomPasswordGenerator.sln">
+</Property><Property Name="Date" Value="30 септември 2015 г.">
+</Property><Property Name="Time" Value="11:31 ч.">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="RandomPasswordGenerator.sln" Description="File successfully backed up as D:\10a klas\Petko Xa\JustForFun\RandomPasswordGenerator\Backup\RandomPasswordGenerator.sln">
+</Event><Event ErrorLevel="0" Project="RandomPasswordGenerator" Source="RandomPasswordGenerator\RandomPasswordGenerator.csproj" Description="Project file successfully backed up as D:\10a klas\Petko Xa\JustForFun\RandomPasswordGenerator\Backup\RandomPasswordGenerator\RandomPasswordGenerator.csproj">
+</Event><Event ErrorLevel="0" Project="RandomPasswordGenerator" Source="RandomPasswordGenerator\RandomPasswordGenerator.cs" Description="File successfully backed up as D:\10a klas\Petko Xa\JustForFun\RandomPasswordGenerator\Backup\RandomPasswordGenerator\RandomPasswordGenerator.cs">
+</Event><Event ErrorLevel="0" Project="RandomPasswordGenerator" Source="RandomPasswordGenerator\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\10a klas\Petko Xa\JustForFun\RandomPasswordGenerator\Backup\RandomPasswordGenerator\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="RandomPasswordGenerator" Source="RandomPasswordGenerator\App.config" Description="File successfully backed up as D:\10a klas\Petko Xa\JustForFun\RandomPasswordGenerator\Backup\RandomPasswordGenerator\App.config">
+</Event><Event ErrorLevel="0" Project="RandomPasswordGenerator" Source="RandomPasswordGenerator\RandomPasswordGenerator.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="RandomPasswordGenerator" Source="RandomPasswordGenerator\RandomPasswordGenerator.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="RandomPasswordGenerator.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="RandomPasswordGenerator.sln" Description="Converted">
+</Event></UpgradeLog>
