@@ -44,22 +44,32 @@ int main()
         }
 
     }
-
+    ofstream myfile;
+    myfile.open("otlichnici.txt",ios::out);
+    ofstream myfile1;
+    myfile1.open("neotlichnici.txt",ios::out);
 
     for(int i=0;i<n;i++){
-
-        if(s[i].uspeh>=USPEH){
-            cout<<s[i].name<<" "<<s[i].secondname<<" "<<s[i].surname<<endl;
+        if(s[i].uspeh>=5.50){
+           myfile<<s[i].name<<" ";
+           myfile<<s[i].secondname<<" ";
+           myfile<<s[i].surname<<" ";
+           myfile<<"Uspeh: "<<s[i].uspeh<<" ";
+           myfile<<"Izvineni otsystvia: "<<s[i].ots.izvineni<<" ";
+           myfile<<"Neizvineni otsystivia: "<<s[i].ots.neizvineni<<endl;
+        }
+        else{
+            myfile1<<s[i].name<<" ";
+            myfile1<<s[i].secondname<<" ";
+            myfile1<<s[i].surname<<" ";
+            myfile1<<s[i].uspeh<<" ";
+            myfile1<<s[i].ots.izvineni<<" ";
+            myfile1<<s[i].ots.neizvineni<<endl;
         }
 
-
-
-
-      if((s[i].ots.izvineni+s[i].ots.neizvineni)==o){
-           cout<<s[i].name<<" "<<s[i].secondname<<" "<<s[i].surname<<endl;
-        }
     }
-
+    myfile.close();
+    myfile1.close();
 	return 0;
 }
 
