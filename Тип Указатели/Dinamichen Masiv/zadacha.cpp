@@ -31,13 +31,11 @@ int main()
     {
         if(arr[i]>=0)
         {
-            pos[pN]=arr[i];
-            pN++;
+            pos[pN++]=arr[i];
         }
         else
         {
-                neg[nN]=arr[i];
-                nN++;
+                neg[nN++]=arr[i];
         }
     }
 
