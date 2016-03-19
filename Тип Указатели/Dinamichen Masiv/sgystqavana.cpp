@@ -32,5 +32,6 @@ int main()
 	delete []oarr;
     cout<<c;
 
+
 	return 0;
 }
