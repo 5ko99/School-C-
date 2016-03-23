@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+0. Petko Ivan Dimity
+1. Petrov Georgi Petrov
+2. pda adad dad
+3. dada dada dada
+4. dadad dada adad
+=======
 0.da da d
 1.a da da
 2.wfgwq gwh gwg
+>>>>>>> 7abd655a2cfb86fcaf91774d99d21d583178f82c
