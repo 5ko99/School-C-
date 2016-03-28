@@ -20,7 +20,8 @@ using namespace std;
             long c = distance(ax,ay,bx,by);
             long P = a+b+c;
             long p = P/2;
-            long s=pow(p*(p-a)*(p-b)*(p-c),0.5);
+            long s=pow((p*(p-a)*(p-b)*(p-c)),0.5);
+            cout<<s;
             return s;
     }
 
@@ -36,9 +37,9 @@ int main()
     ax=1;
     ay=2;
     bx=3;
-    by=1;
-    cx=2;
-    cy=1;
+    by=3;
+    cx=5;
+    cy=4;
     cout<<"Distance= "<<distance(ax,ay,bx,by)<<endl;
     cout<<"Perimeter= "<<lice(ax,ay,bx,by,cx,cy);
 	return 0;
