@@ -14,15 +14,15 @@ int main()
     m[4]=20;
     m[5]=50;
     m[6]=100;
-    
+
     for (int i=0;i<=6;i++)
     {
       if(sum-m[i]>=0)
       {
-         n++;  
+         n++;
       }
     }
-    
+
     while(n>=0)
     {
         if(sum-m[n]>=0)
@@ -30,7 +30,7 @@ int main()
             if (sum-m[n]==0)
             {
                 cout<<m[n];
-                return 0;
+                break;
             }
             else
             {
@@ -40,10 +40,10 @@ int main()
         }
         else
         {
-          n--;  
+          n--;
         }
     }
-    
-   
+
+
     return 0;
 }
