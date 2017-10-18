@@ -1,0 +1,13 @@
+D:\Petko 12a\Visual Basic\EnglishTeacher\EnglishTeacher\bin\Debug\EnglishTeacher.exe.config
+D:\Petko 12a\Visual Basic\EnglishTeacher\EnglishTeacher\bin\Debug\EnglishTeacher.exe
+D:\Petko 12a\Visual Basic\EnglishTeacher\EnglishTeacher\bin\Debug\EnglishTeacher.pdb
+D:\Petko 12a\Visual Basic\EnglishTeacher\EnglishTeacher\bin\Debug\EnglishTeacher.xml
+D:\Petko 12a\Visual Basic\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.vbprojResolveAssemblyReference.cache
+D:\Petko 12a\Visual Basic\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.Form1.resources
+D:\Petko 12a\Visual Basic\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.Resources.resources
+D:\Petko 12a\Visual Basic\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.vbproj.GenerateResource.Cache
+D:\Petko 12a\Visual Basic\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.vbproj.CoreCompileInputs.cache
+D:\Petko 12a\Visual Basic\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.exe
+D:\Petko 12a\Visual Basic\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.xml
+D:\Petko 12a\Visual Basic\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.pdb
+D:\Petko 12a\Visual Basic\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.Form2.resources

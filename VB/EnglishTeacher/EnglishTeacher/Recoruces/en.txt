@@ -1,0 +1,15 @@
+Apple
+Elephant
+Dog
+Cat
+Donkey
+Computer
+TV
+Tree
+Flower
+Girl
+Friend
+Boy
+Guitar
+Penguin
+Window

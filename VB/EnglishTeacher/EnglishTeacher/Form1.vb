@@ -1,0 +1,47 @@
+﻿Imports System.IO
+
+Public Class Form1
+    Dim count As Integer = 0
+    Dim randomValue As Integer = 0
+    Dim score As Integer = 0
+    Dim upperbound As Integer = 14
+    Dim lowerbound As Integer = 0
+    Dim wordsEn(15) As String
+    Dim wordsBg(15) As String
+    Dim valuesChosen(5) As Integer
+    Dim pathEn As String = "D:\Petko 12a\Visual Basic\EnglishTeacher\EnglishTeacher\Recoruces\en.txt"
+    Dim pathBg As String = "D:\Petko 12a\Visual Basic\EnglishTeacher\EnglishTeacher\Recoruces\bg.txt"
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim srEn As StreamReader = New StreamReader(pathEn)
+        Dim srBg As StreamReader = New StreamReader(pathBg)
+        For index As Integer = 0 To upperbound
+            wordsEn(index) = srEn.ReadLine()
+            wordsBg(index) = srBg.ReadLine()
+        Next
+        srEn.Close()
+        srBg.Close()
+        Randomize()
+        randomValue = CInt(Math.Floor((upperbound - lowerbound + 1) * Rnd())) + lowerbound
+        valuesChosen(count) = randomValue
+        txt_word_en.Text = wordsEn(randomValue)
+    End Sub
+
+    Private Sub btn_subbmit_Click(sender As Object, e As EventArgs) Handles btn_subbmit.Click
+        If StrComp(txt_word_bg.Text, wordsBg(randomValue)) = 0 Then
+            score += 1
+        End If
+        Do
+            Randomize()
+            randomValue = CInt(Math.Floor((upperbound - lowerbound + 1) * Rnd())) + lowerbound
+        Loop While randomValue = valuesChosen(count)
+        txt_word_en.Text = wordsEn(randomValue)
+        valuesChosen(count) = randomValue
+        lbl_score.Text = score
+        count += 1
+        If count = 5 Then
+            MsgBox(score)
+            Form2.Show()
+            Me.Hide()
+        End If
+    End Sub
+End Class
