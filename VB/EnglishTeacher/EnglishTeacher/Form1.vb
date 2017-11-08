@@ -1,5 +1,5 @@
 ﻿Imports System.IO
-
+Imports EnglishTeacher.Remove
 Public Class Form1
     Dim count As Integer = 0
     Dim randomValue As Integer = 0
@@ -9,8 +9,8 @@ Public Class Form1
     Dim wordsEn(15) As String
     Dim wordsBg(15) As String
     Dim valuesChosen(5) As Integer
-    Dim pathEn As String = "D:\Petko 12a\Visual Basic\EnglishTeacher\EnglishTeacher\Recoruces\en.txt"
-    Dim pathBg As String = "D:\Petko 12a\Visual Basic\EnglishTeacher\EnglishTeacher\Recoruces\bg.txt"
+    Dim pathEn As String = "D:\Petko 12a\Visual Basic\School-C-\VB\EnglishTeacher\EnglishTeacher\Recoruces\en.txt"
+    Dim pathBg As String = "D:\Petko 12a\Visual Basic\School-C-\VB\EnglishTeacher\EnglishTeacher\Recoruces\bg.txt"
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim srEn As StreamReader = New StreamReader(pathEn)
         Dim srBg As StreamReader = New StreamReader(pathBg)
@@ -20,6 +20,9 @@ Public Class Form1
         Next
         srEn.Close()
         srBg.Close()
+        wordsEn = RemoveAt(wordsEn, randomValue)
+        wordsBg = RemoveAt(wordsBg, randomValue)
+        upperbound -= 1
         Randomize()
         randomValue = CInt(Math.Floor((upperbound - lowerbound + 1) * Rnd())) + lowerbound
         valuesChosen(count) = randomValue
@@ -27,10 +30,13 @@ Public Class Form1
     End Sub
 
     Private Sub btn_subbmit_Click(sender As Object, e As EventArgs) Handles btn_subbmit.Click
-        If StrComp(txt_word_bg.Text, wordsBg(randomValue)) = 0 Then
+        If StrComp(txt_word_bg.Text.ToLower, wordsBg(randomValue).ToLower) = 0 Then
             score += 1
         End If
         Do
+            wordsEn = RemoveAt(wordsEn, randomValue)
+            wordsBg = RemoveAt(wordsBg, randomValue)
+            upperbound -= 1
             Randomize()
             randomValue = CInt(Math.Floor((upperbound - lowerbound + 1) * Rnd())) + lowerbound
         Loop While randomValue = valuesChosen(count)
@@ -39,9 +45,11 @@ Public Class Form1
         lbl_score.Text = score
         count += 1
         If count = 5 Then
-            MsgBox(score)
+            MsgBox("Overall Points:" & score)
+            Module1.score += score
             Form2.Show()
             Me.Hide()
         End If
+        txt_word_bg.Clear()
     End Sub
 End Class

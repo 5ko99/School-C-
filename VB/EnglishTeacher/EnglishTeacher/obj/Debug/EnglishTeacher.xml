@@ -22,5 +22,35 @@ EnglishTeacher
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:EnglishTeacher.My.Resources.Resources.cow_in_pasture_jpg_838x0_q80">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EnglishTeacher.My.Resources.Resources.elephant">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EnglishTeacher.My.Resources.Resources.lion">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EnglishTeacher.My.Resources.Resources.monkey_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EnglishTeacher.My.Resources.Resources.tiger">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EnglishTeacher.My.Resources.Resources.wolf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

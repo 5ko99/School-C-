@@ -31,17 +31,19 @@ Partial Class Form2
         '
         'txt_word_en
         '
+        Me.txt_word_en.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
         Me.txt_word_en.Location = New System.Drawing.Point(100, 102)
         Me.txt_word_en.Name = "txt_word_en"
-        Me.txt_word_en.Size = New System.Drawing.Size(180, 20)
+        Me.txt_word_en.Size = New System.Drawing.Size(180, 40)
         Me.txt_word_en.TabIndex = 1
         '
         'txt_word_bg
         '
         Me.txt_word_bg.Enabled = False
+        Me.txt_word_bg.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
         Me.txt_word_bg.Location = New System.Drawing.Point(100, 41)
         Me.txt_word_bg.Name = "txt_word_bg"
-        Me.txt_word_bg.Size = New System.Drawing.Size(180, 20)
+        Me.txt_word_bg.Size = New System.Drawing.Size(180, 40)
         Me.txt_word_bg.TabIndex = 2
         '
         'btn_subbmit
@@ -75,6 +77,7 @@ Partial Class Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.Info
         Me.ClientSize = New System.Drawing.Size(388, 204)
         Me.Controls.Add(Me.lbl)
         Me.Controls.Add(Me.lbl_score)
