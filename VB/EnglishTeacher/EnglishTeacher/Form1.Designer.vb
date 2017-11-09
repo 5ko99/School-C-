@@ -27,6 +27,8 @@ Partial Class Form1
         Me.btn_subbmit = New System.Windows.Forms.Button()
         Me.lbl = New System.Windows.Forms.Label()
         Me.lbl_score = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txt_word_en
@@ -73,12 +75,25 @@ Partial Class Form1
         Me.lbl_score.TabIndex = 4
         Me.lbl_score.Text = "0"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackgroundImage = Global.EnglishTeacher.My.Resources.Resources.Donald_Duck_render
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox1.Image = Global.EnglishTeacher.My.Resources.Resources.b82285c3dfe973d361191312a15d6c9a
+        Me.PictureBox1.InitialImage = Global.EnglishTeacher.My.Resources.Resources.b82285c3dfe973d361191312a15d6c9a
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 41)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(81, 120)
+        Me.PictureBox1.TabIndex = 8
+        Me.PictureBox1.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Info
         Me.ClientSize = New System.Drawing.Size(389, 200)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.lbl_score)
         Me.Controls.Add(Me.lbl)
         Me.Controls.Add(Me.btn_subbmit)
@@ -86,6 +101,7 @@ Partial Class Form1
         Me.Controls.Add(Me.txt_word_en)
         Me.Name = "Form1"
         Me.Text = "English to Bulgarian"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -96,4 +112,5 @@ Partial Class Form1
     Friend WithEvents btn_subbmit As Button
     Friend WithEvents lbl As Label
     Friend WithEvents lbl_score As Label
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

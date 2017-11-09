@@ -159,5 +159,11 @@
   <ItemGroup>
     <None Include="Resources\cow-in-pasture.jpg.838x0_q80.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b82285c3dfe973d361191312a15d6c9a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Donald_Duck_render.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

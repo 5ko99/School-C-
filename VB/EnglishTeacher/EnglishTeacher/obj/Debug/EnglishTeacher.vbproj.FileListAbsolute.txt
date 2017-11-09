@@ -25,3 +25,17 @@ D:\Petko 12a\Visual Basic\School-C-\VB\EnglishTeacher\EnglishTeacher\obj\Debug\E
 D:\Petko 12a\Visual Basic\School-C-\VB\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.xml
 D:\Petko 12a\Visual Basic\School-C-\VB\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.pdb
 D:\Petko 12a\Visual Basic\School-C-\VB\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.Form3.resources
+D:\Develop\School-C-\VB\EnglishTeacher\EnglishTeacher\bin\Debug\EnglishTeacher.exe.config
+D:\Develop\School-C-\VB\EnglishTeacher\EnglishTeacher\bin\Debug\EnglishTeacher.exe
+D:\Develop\School-C-\VB\EnglishTeacher\EnglishTeacher\bin\Debug\EnglishTeacher.pdb
+D:\Develop\School-C-\VB\EnglishTeacher\EnglishTeacher\bin\Debug\EnglishTeacher.xml
+D:\Develop\School-C-\VB\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.vbprojResolveAssemblyReference.cache
+D:\Develop\School-C-\VB\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.Form1.resources
+D:\Develop\School-C-\VB\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.Form3.resources
+D:\Develop\School-C-\VB\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.Resources.resources
+D:\Develop\School-C-\VB\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.Form2.resources
+D:\Develop\School-C-\VB\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.vbproj.GenerateResource.Cache
+D:\Develop\School-C-\VB\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.vbproj.CoreCompileInputs.cache
+D:\Develop\School-C-\VB\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.exe
+D:\Develop\School-C-\VB\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.xml
+D:\Develop\School-C-\VB\EnglishTeacher\EnglishTeacher\obj\Debug\EnglishTeacher.pdb

@@ -22,80 +22,22 @@ Partial Class Form3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.picCow = New System.Windows.Forms.PictureBox()
-        Me.picEl = New System.Windows.Forms.PictureBox()
-        Me.picLion = New System.Windows.Forms.PictureBox()
-        Me.picMonkey = New System.Windows.Forms.PictureBox()
-        Me.picTiger = New System.Windows.Forms.PictureBox()
-        Me.picWolf = New System.Windows.Forms.PictureBox()
         Me.txtWord = New System.Windows.Forms.TextBox()
-        CType(Me.picCow, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.picEl, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.picLion, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.picMonkey, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.picTiger, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lbl_score = New System.Windows.Forms.Label()
+        Me.picWolf = New System.Windows.Forms.PictureBox()
+        Me.picTiger = New System.Windows.Forms.PictureBox()
+        Me.picMonkey = New System.Windows.Forms.PictureBox()
+        Me.picLion = New System.Windows.Forms.PictureBox()
+        Me.picEl = New System.Windows.Forms.PictureBox()
+        Me.picCow = New System.Windows.Forms.PictureBox()
         CType(Me.picWolf, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picTiger, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picMonkey, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picLion, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picEl, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picCow, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'picCow
-        '
-        Me.picCow.BackgroundImage = Global.EnglishTeacher.My.Resources.Resources.cow_in_pasture_jpg_838x0_q80
-        Me.picCow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.picCow.Location = New System.Drawing.Point(45, 30)
-        Me.picCow.Name = "picCow"
-        Me.picCow.Size = New System.Drawing.Size(106, 67)
-        Me.picCow.TabIndex = 0
-        Me.picCow.TabStop = False
-        '
-        'picEl
-        '
-        Me.picEl.BackgroundImage = Global.EnglishTeacher.My.Resources.Resources.elephant
-        Me.picEl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.picEl.Location = New System.Drawing.Point(180, 30)
-        Me.picEl.Name = "picEl"
-        Me.picEl.Size = New System.Drawing.Size(106, 67)
-        Me.picEl.TabIndex = 1
-        Me.picEl.TabStop = False
-        '
-        'picLion
-        '
-        Me.picLion.BackgroundImage = Global.EnglishTeacher.My.Resources.Resources.lion
-        Me.picLion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.picLion.Location = New System.Drawing.Point(314, 30)
-        Me.picLion.Name = "picLion"
-        Me.picLion.Size = New System.Drawing.Size(106, 67)
-        Me.picLion.TabIndex = 2
-        Me.picLion.TabStop = False
-        '
-        'picMonkey
-        '
-        Me.picMonkey.BackgroundImage = Global.EnglishTeacher.My.Resources.Resources.monkey_4
-        Me.picMonkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.picMonkey.Location = New System.Drawing.Point(45, 126)
-        Me.picMonkey.Name = "picMonkey"
-        Me.picMonkey.Size = New System.Drawing.Size(106, 67)
-        Me.picMonkey.TabIndex = 3
-        Me.picMonkey.TabStop = False
-        '
-        'picTiger
-        '
-        Me.picTiger.BackgroundImage = Global.EnglishTeacher.My.Resources.Resources.tiger
-        Me.picTiger.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.picTiger.Location = New System.Drawing.Point(180, 126)
-        Me.picTiger.Name = "picTiger"
-        Me.picTiger.Size = New System.Drawing.Size(106, 67)
-        Me.picTiger.TabIndex = 4
-        Me.picTiger.TabStop = False
-        '
-        'picWolf
-        '
-        Me.picWolf.BackgroundImage = Global.EnglishTeacher.My.Resources.Resources.wolf
-        Me.picWolf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.picWolf.Location = New System.Drawing.Point(314, 126)
-        Me.picWolf.Name = "picWolf"
-        Me.picWolf.Size = New System.Drawing.Size(106, 67)
-        Me.picWolf.TabIndex = 5
-        Me.picWolf.TabStop = False
         '
         'txtWord
         '
@@ -107,11 +49,92 @@ Partial Class Form3
         Me.txtWord.TabIndex = 6
         Me.txtWord.Text = "-1"
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(26, 220)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(38, 13)
+        Me.Label1.TabIndex = 8
+        Me.Label1.Text = "Score:"
+        '
+        'lbl_score
+        '
+        Me.lbl_score.AutoSize = True
+        Me.lbl_score.Location = New System.Drawing.Point(70, 220)
+        Me.lbl_score.Name = "lbl_score"
+        Me.lbl_score.Size = New System.Drawing.Size(13, 13)
+        Me.lbl_score.TabIndex = 9
+        Me.lbl_score.Text = "0"
+        '
+        'picWolf
+        '
+        Me.picWolf.BackgroundImage = Global.EnglishTeacher.My.Resources.Resources.wolf
+        Me.picWolf.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.picWolf.Location = New System.Drawing.Point(314, 126)
+        Me.picWolf.Name = "picWolf"
+        Me.picWolf.Size = New System.Drawing.Size(106, 67)
+        Me.picWolf.TabIndex = 5
+        Me.picWolf.TabStop = False
+        '
+        'picTiger
+        '
+        Me.picTiger.BackgroundImage = Global.EnglishTeacher.My.Resources.Resources.tiger
+        Me.picTiger.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.picTiger.Location = New System.Drawing.Point(180, 126)
+        Me.picTiger.Name = "picTiger"
+        Me.picTiger.Size = New System.Drawing.Size(106, 67)
+        Me.picTiger.TabIndex = 4
+        Me.picTiger.TabStop = False
+        '
+        'picMonkey
+        '
+        Me.picMonkey.BackgroundImage = Global.EnglishTeacher.My.Resources.Resources.monkey_4
+        Me.picMonkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.picMonkey.Location = New System.Drawing.Point(45, 126)
+        Me.picMonkey.Name = "picMonkey"
+        Me.picMonkey.Size = New System.Drawing.Size(106, 67)
+        Me.picMonkey.TabIndex = 3
+        Me.picMonkey.TabStop = False
+        '
+        'picLion
+        '
+        Me.picLion.BackgroundImage = Global.EnglishTeacher.My.Resources.Resources.lion
+        Me.picLion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.picLion.Location = New System.Drawing.Point(314, 30)
+        Me.picLion.Name = "picLion"
+        Me.picLion.Size = New System.Drawing.Size(106, 67)
+        Me.picLion.TabIndex = 2
+        Me.picLion.TabStop = False
+        '
+        'picEl
+        '
+        Me.picEl.BackgroundImage = Global.EnglishTeacher.My.Resources.Resources.elephant
+        Me.picEl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.picEl.Location = New System.Drawing.Point(180, 30)
+        Me.picEl.Name = "picEl"
+        Me.picEl.Size = New System.Drawing.Size(106, 67)
+        Me.picEl.TabIndex = 1
+        Me.picEl.TabStop = False
+        '
+        'picCow
+        '
+        Me.picCow.BackgroundImage = Global.EnglishTeacher.My.Resources.Resources.cow_in_pasture_jpg_838x0_q80
+        Me.picCow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.picCow.Location = New System.Drawing.Point(45, 30)
+        Me.picCow.Name = "picCow"
+        Me.picCow.Size = New System.Drawing.Size(106, 67)
+        Me.picCow.TabIndex = 0
+        Me.picCow.TabStop = False
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.Info
         Me.ClientSize = New System.Drawing.Size(439, 290)
+        Me.Controls.Add(Me.lbl_score)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtWord)
         Me.Controls.Add(Me.picWolf)
         Me.Controls.Add(Me.picTiger)
@@ -120,13 +143,13 @@ Partial Class Form3
         Me.Controls.Add(Me.picEl)
         Me.Controls.Add(Me.picCow)
         Me.Name = "Form3"
-        Me.Text = "Form3"
-        CType(Me.picCow, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.picEl, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.picLion, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.picMonkey, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.picTiger, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Text = "Animals"
         CType(Me.picWolf, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picTiger, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picMonkey, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picLion, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picEl, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picCow, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -139,4 +162,6 @@ Partial Class Form3
     Friend WithEvents picTiger As PictureBox
     Friend WithEvents picWolf As PictureBox
     Friend WithEvents txtWord As TextBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents lbl_score As Label
 End Class

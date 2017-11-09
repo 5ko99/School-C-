@@ -45,7 +45,7 @@ Public Class Form1
         lbl_score.Text = score
         count += 1
         If count = 5 Then
-            MsgBox("Overall Points:" & score)
+            MsgBox("Score of Round:" & score)
             Module1.score += score
             Form2.Show()
             Me.Hide()
